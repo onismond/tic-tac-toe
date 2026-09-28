@@ -9,5 +9,10 @@ export function meta({}: Route.MetaArgs) {
 }
 
 export default function Home() {
-  return <Welcome />;
+  return <Square />;
 }
+
+function Square() {
+  return <button className="square">X</button>
+}
+
